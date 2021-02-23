@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Welcome to the QuickPick App!</Text>
-      <StatusBar style="auto" />  
+      <StatusBar style="bold" />  
     </View>
   );
 }
