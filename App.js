@@ -20,14 +20,12 @@ export default function App() {
       <Login />
     )
   }
-
   return (
     <View style={styles.container}>
       {page}
     </View>
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
