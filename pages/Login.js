@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, TouchableOpacity, View, Image,  } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View, Image, Button  } from 'react-native';
 
 export default function Login() {
   render();
