@@ -21,6 +21,16 @@ export default function App() {
       <Login />
     )
   }
+  var page = (
+    <Pressable onPress={press}>
+      <Create_account_button />
+    </Pressable>
+  );
+  if(pressed) {
+    page = (
+      <Create_account />
+    )
+  }
 
 return (
   <View style={styles.container}>
