@@ -22,7 +22,9 @@ export default function Login() {
 
       <View Style={styles.container}>
       <Image source={require('../assets/applogo.jpg')} />
-        <Text>QuicKPick Log in!</Text>
+      </View>
+      <View Style={styles.container}>
+        <Text>QuickPick Log in!</Text>
       </View>
       <View style={styles.inputView}>
         <TextInput
