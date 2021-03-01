@@ -4,7 +4,7 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Main from './pages/Main';
-import Create from './pages/Create_account';
+import Create_account from './pages/Create_account';
 
 
 
@@ -21,7 +21,7 @@ export default function App() {
   );
   if(pressed) {
     page = (
-      <Create />
+      <Create_account />
     )
   }
  
