@@ -1,6 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import {
+  Pressable,
   StyleSheet,
   Text,
   View,
@@ -9,10 +10,27 @@ import {
   Button,
   TouchableOpacity,
 } from "react-native";
+import Main from './pages/Main';
 
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  var [pressed, setPressed] = useState(false);
+  var press = () => {
+    setPressed(true);
+    console.log("Press button")
+  }
+  var page = (
+    <Pressable onPress={press}>
+      <loginBtn />
+    </Pressable>
+  );
+  if(pressed) {
+    page = (
+      <Main />
+    )
+  }
 
   return (
     <View style={styles.container}>
