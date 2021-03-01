@@ -16,6 +16,9 @@ export default function Login() {
 
   return (
     <View style={styles.container}>
+      <Image source={require('../assets/applogo.jpg')} />
+      <Text>QuickPick Log in!</Text>
+      <StatusBar style="auto" />  
       
       <StatusBar style="auto" />
       <View style={styles.inputView}>
