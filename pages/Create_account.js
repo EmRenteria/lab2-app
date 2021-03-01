@@ -8,7 +8,7 @@ import { StyleSheet,
     Button,
     TouchableOpacity, } from 'react-native';
 
-export default function Home() {
+export default function Create_account {
   const [FirstName, setFirstName] = useState("");
   const [LastName, setLastname] = useState("");
   const [email, setEmail] = useState("");
