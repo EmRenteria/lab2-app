@@ -20,9 +20,7 @@ export default function Login() {
       
       <StatusBar style="auto" />
 
-      <View Style={styles.container}>
-      <Image source={require('../assets/applogo.jpg')} />
-      </View>
+
       <View Style={styles.logo}>
         <Text>QuickPick Log in!</Text>
       </View>
