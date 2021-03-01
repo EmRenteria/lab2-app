@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import Home from './pages/Home';
 import Login from './pages/Login';
-import Main  from './pages/Main';
+import { View, Button, StyleSheet, TouchableOpacity, Text } from "react-native"
 
 export default function App() {
   var [pressed, setPressed] = useState(false);
@@ -22,21 +22,6 @@ export default function App() {
     )
   }
 
-return (
-  <View style={styles.container}>
-    {page}
-    </View>
-);
-var page = (
-  <Pressable onPress={press}>
-    <Login />
-  </Pressable>
-);
-if(pressed) {
-  page = (
-    <Main />
-  )
-}
 return (
   <View style={styles.container}>
     {page}
