@@ -47,6 +47,10 @@ export default function Login() {
         <Text style={styles.forgot_button}>Forgot Password?</Text>
       </TouchableOpacity>
 
+      <TouchableOpacity>
+        <Text style={styles.Create_account_Button}>Not a user? Create an Account!</Text>
+      </TouchableOpacity>
+
       <TouchableOpacity style={styles.loginBtn}>
         <Text style={styles.loginText}>LOGIN</Text>
       </TouchableOpacity>
@@ -84,6 +88,11 @@ const styles = StyleSheet.create({
   },
 
   forgot_button: {
+    height: 30,
+    marginBottom: 30,
+  },
+
+  Create_account_Button: {
     height: 30,
     marginBottom: 30,
   },
