@@ -24,16 +24,7 @@ export default function App() {
       <Login />
     )
   }
-  var page = (
-    <Pressable onPress={press}>
-      <Login />
-    </Pressable>
-  );
-  if(pressed) {
-    page = (
-      <Create />
-    )
-  }
+ 
 
 return (
   <View style={styles.container}>
