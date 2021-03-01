@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   },
 
   image: {
-    marginBottom: 80,
+    marginBottom: 200,
   },
 
   inputView: {
