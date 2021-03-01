@@ -3,6 +3,9 @@ import React, {useState} from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import Home from './pages/Home';
 import Login from './pages/Login';
+import Main from './pages/Main';
+import Create from './pages/Create_account';
+import Create_account_Button from './pages/Login;';
 
 
 export default function App() {
@@ -21,7 +24,16 @@ export default function App() {
       <Login />
     )
   }
-  
+  var page = (
+    <Pressable onPress={press}>
+      <Create_account_Button />
+    </Pressable>
+  );
+  if(pressed) {
+    page = (
+      <Create />
+    )
+  }
 
 return (
   <View style={styles.container}>
