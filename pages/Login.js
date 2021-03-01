@@ -16,7 +16,7 @@ export default function Login() {
 
   return (
     <View style={styles.container}>
-      <Image style={styles.image} source={require("./assets/log2.png")} />
+      <Image style={styles.image} source={require("./assets/applogo.jpg")} />
 
       <StatusBar style="auto" />
       <View style={styles.inputView}>
