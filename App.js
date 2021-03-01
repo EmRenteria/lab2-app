@@ -23,7 +23,7 @@ export default function App() {
   }
   var page = (
     <Pressable onPress={press}>
-      <Create_account_button />
+      <Login />
     </Pressable>
   );
   if(pressed) {
