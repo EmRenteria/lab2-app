@@ -23,7 +23,7 @@ export default function Login() {
       <View Style={styles.container}>
       <Image source={require('../assets/applogo.jpg')} />
       </View>
-      <View Style={styles.container}>
+      <View Style={styles.logo}>
         <Text>QuickPick Log in!</Text>
       </View>
       <View style={styles.inputView}>
@@ -99,4 +99,10 @@ const styles = StyleSheet.create({
     marginTop: 40,
     backgroundColor: "#d8bfd8",
   },
+  logo:{
+    fontWeight:"bold",
+    fontSize:50,
+    color:"#fb5b5a",
+    marginBottom:40
+  }
 });
