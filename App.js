@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import Home from './pages/Home';
 import Login from './pages/Login';
-import { View, Button, StyleSheet, TouchableOpacity, Text } from "react-native"
+
 
 export default function App() {
   var [pressed, setPressed] = useState(false);
