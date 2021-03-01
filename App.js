@@ -22,13 +22,13 @@ export default function App() {
     )
   }
 
-  onLogin() {
+  onLogin() ;
     const { username, password } = this.state;
 
     Alert.alert('Credentials', `${username} + ${password}`);
   }
 
-  render() {
+  render() 
     return (
       <View style={styles.container}>
         <TextInput
@@ -52,14 +52,14 @@ export default function App() {
         />
       </View>
     );
-  }
-}
+  
+
   return (
     <View style={styles.container}>
       {page}
     </View>
   );
-}
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
