@@ -1,6 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet,
+    Text,
+    View,
+    Image,
+    TextInput,
+    Button,
+    TouchableOpacity, } from 'react-native';
 
 export default function Home() {
   const [FirstName, setFirstName] = useState("");
