@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 export default function Home() {
   return (
     <View style={styles.container}>
-        <Image source={require('../assets/applogo.jpg')} />
+        <Image source={require('../assets/Introgif.gif')} />
       <Text>Welcome to the QuickPick App!</Text>
       <StatusBar style="auto" />  
     </View>
