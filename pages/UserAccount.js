@@ -12,9 +12,9 @@ export default function Payment() {
         
         <StatusBar style="auto" />
 
-        <View Style={styles.basetext}>
+        <View Style={styles.baseText}>
             <Text>Hello</Text>
-            <View Style={styles.innertext}>
+            <View Style={styles.innerText}>
                 <Text>Hallie!</Text>
             </View>
         </View>
