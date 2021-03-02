@@ -25,9 +25,7 @@ export default function Login() {
       <StatusBar style="auto" />
 
       <Image source={require('../assets/quickpicklogin.gif')} />
-      <View Style={styles.logo}>
-        <Text>QuickPick Log in!</Text>
-      </View>
+      
       <View style={styles.inputView}>
         <TextInput
           style={styles.TextInput}
