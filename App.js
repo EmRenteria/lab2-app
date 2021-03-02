@@ -23,7 +23,7 @@ export default function App() {
   );
   if(pressed) {
     page = (
-      <Main />
+      <Login />
     )
   }
  
