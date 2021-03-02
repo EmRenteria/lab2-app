@@ -98,43 +98,27 @@ const styles = StyleSheet.create({
   },
 
   linkCABtn: {
-    width: "80%",
-    borderRadius: 60,
-    height: 50,
     alignItems: "center",
-    justifyContent: "center",
-    marginTop: 40,
     backgroundColor: "#32cd32",
+    padding: 10
   },
   
   linkPP: {
-    width: "80%",
-    borderRadius: 60,
-    height: 50,
     alignItems: "center",
-    justifyContent: "center",
-    marginTop: 40,
     backgroundColor: "#4169e1",
+    padding: 10
   },
   
   linkAP: {
-    width: "80%",
-    borderRadius: 60,
-    height: 50,
     alignItems: "center",
-    justifyContent: "center",
-    marginTop: 40,
     backgroundColor: "#708090",
+    padding: 10
   },
   
   linkVenmo: {
-    width: "80%",
-    borderRadius: 60,
-    height: 50,
     alignItems: "center",
-    justifyContent: "center",
-    marginTop: 40,
     backgroundColor: "#87ceeb",
+    padding: 10
   },
   logo:{
     fontWeight:"bold",
