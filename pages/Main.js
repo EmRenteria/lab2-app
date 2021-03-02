@@ -49,40 +49,24 @@ export default function Main() {
       justifyContent: 'center',
     },
     SearchBtn: {
-        width: "80%",
-        borderRadius: 60,
-        height: 50,
         alignItems: "center",
-        justifyContent: "center",
-        marginTop: 40,
-        backgroundColor: "#f08080",
+    backgroundColor: "#f08080",
+    padding: 10
       },
       ListBtn: {
-        width: "80%",
-        borderRadius: 60,
-        height: 50,
         alignItems: "center",
-        justifyContent: "center",
-        marginTop: 40,
-        backgroundColor: "#f08080",
+    backgroundColor: "#f08080",
+    padding: 10,
       },
       PaymentBtn: {
-        width: "80%",
-        borderRadius: 60,
-        height: 50,
         alignItems: "center",
-        justifyContent: "center",
-        marginTop: 40,
-        backgroundColor: "#f08080",
+    backgroundColor: "#f08080",
+    padding: 10,
       },
       AccountBtn: {
-        width: "80%",
-        borderRadius: 60,
-        height: 50,
         alignItems: "center",
-        justifyContent: "center",
-        marginTop: 40,
-        backgroundColor: "#f08080",
+    backgroundColor: "#f08080",
+    padding: 10
       },
     });
 
