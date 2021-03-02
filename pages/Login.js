@@ -10,7 +10,7 @@ import {
   Button,
   TouchableOpacity,
 } from "react-native";
-import Main from './pages/Main';
+
 
 export default function Login() {
   const [email, setEmail] = useState("");
