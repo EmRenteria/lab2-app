@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Main from './pages/Main';
 import Create_account from './pages/Create_account';
+import Payment from './pages/Payment';
 
 
 
@@ -21,7 +22,7 @@ export default function App() {
   );
   if(pressed) {
     page = (
-      <Login />
+      <Payment />
     )
   }
  

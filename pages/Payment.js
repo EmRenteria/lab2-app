@@ -11,9 +11,8 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-export default function Login() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+export default function Payment() {
+  
 
  
 
@@ -25,37 +24,35 @@ export default function Login() {
 
 
       <View Style={styles.logo}>
-        <Text>QuickPick Log in!</Text>
-      </View>
-      <View style={styles.inputView}>
-        <TextInput
-          style={styles.TextInput}
-          placeholder="Email."
-          placeholderTextColor="#003f5c"
-          onChangeText={(email) => setEmail(email)}
-        />
+        <Text>Payment Information</Text>
       </View>
 
-      <View style={styles.inputView}>
-        <TextInput
-          style={styles.TextInput}
-          placeholder="Password."
-          placeholderTextColor="#003f5c"
-          secureTextEntry={true}
-          onChangeText={(password) => setPassword(password)}
-        />
+      <View Style={styles.logo}>
+        <Text>Your Preferred Payment Method:</Text>
+      </View>
+
+      <View Style={styles.logo}>
+        <Text>Credit Card with ending 1234</Text>
       </View>
 
       <TouchableOpacity>
-        <Text style={styles.forgot_button}>Forgot Password?</Text>
+        <Text style={styles.addpayment_button}>Add Payment Method</Text>
+      </TouchableOpacity>
+     
+      <TouchableOpacity style={styles.linkCABtn}>
+        <Text style={styles.linkCABtn}> Link CashApp</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity>
-        <Text style={styles.Create_account_Button}>Not a user? Create an Account!</Text>
+      <TouchableOpacity style={styles.linkPP}>
+        <Text style={styles.linkPP}>Link PayPal</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.loginBtn}>
-        <Text style={styles.loginText}>LOGIN</Text>
+      <TouchableOpacity style={styles.linkAP}>
+        <Text style={styles.linkAP}>Link Apple Pay</Text>
+      </TouchableOpacity>
+
+     <TouchableOpacity style={styles.linkVenmo}>
+        <Text style={styles.LinkVenmo}>Link Venmo</Text>
       </TouchableOpacity>
     </View>
   );
@@ -90,7 +87,7 @@ const styles = StyleSheet.create({
     marginLeft: 20,
   },
 
-  forgot_button: {
+  addpayment_button: {
     height: 30,
     marginBottom: 30,
   },
@@ -100,14 +97,44 @@ const styles = StyleSheet.create({
     marginBottom: 30,
   },
 
-  loginBtn: {
+  linkCABtn: {
     width: "80%",
     borderRadius: 60,
     height: 50,
     alignItems: "center",
     justifyContent: "center",
     marginTop: 40,
-    backgroundColor: "#f08080",
+    backgroundColor: "#32cd32",
+  },
+  
+  linkPP: {
+    width: "80%",
+    borderRadius: 60,
+    height: 50,
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 40,
+    backgroundColor: "#4169e1",
+  },
+  
+  linkAP: {
+    width: "80%",
+    borderRadius: 60,
+    height: 50,
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 40,
+    backgroundColor: "#708090",
+  },
+  
+  linkVenmo: {
+    width: "80%",
+    borderRadius: 60,
+    height: 50,
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 40,
+    backgroundColor: "#87ceeb",
   },
   logo:{
     fontWeight:"bold",
