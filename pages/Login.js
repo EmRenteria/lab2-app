@@ -25,7 +25,7 @@ export default function Login() {
       <StatusBar style="auto" />
 
       <View style={styles.container}>
-        <Image source={require('../assets/loginqp.jpeg')} />
+        <Image source={require('../assets/loginqp.jpg')} />
       <Text>Welcome to the QuickPick App!</Text>
       <StatusBar style="auto" />  
     </View>
