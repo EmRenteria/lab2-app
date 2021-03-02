@@ -26,6 +26,12 @@ export default function Payment() {
   }
 
 const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: "#9DC183",
+        alignItems: "center",
+        justifyContent: "center",
+      },
   baseText: {
     fontWeight: 'bold'
   },
