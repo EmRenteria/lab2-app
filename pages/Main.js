@@ -18,9 +18,6 @@ export default function Main() {
       <StatusBar style="auto" />
 
 
-      
-      
-
       <TouchableOpacity>
         <Text style={styles.SearchBtn}>Search</Text>
       </TouchableOpacity>

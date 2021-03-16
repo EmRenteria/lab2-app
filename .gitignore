@@ -8,6 +8,7 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
-
+Backend/node_modules/**/*
+Backend/app/routes/serverinfo.js
 # macOS
 .DS_Store

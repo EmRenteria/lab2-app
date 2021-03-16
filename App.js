@@ -4,6 +4,7 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Main from './pages/Main';
+import Search from './pages/Search';
 import Create_account from './pages/Create_account';
 import Payment from './pages/Payment';
 import UserAccount from './pages/UserAccount';
@@ -23,7 +24,7 @@ export default function App() {
   );
   if(pressed) {
     page = (
-      <Login />
+      <Search />
     )
   }
  

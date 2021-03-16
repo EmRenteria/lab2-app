@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <View style={styles.container}>
         <Image source={require('../assets/Introgif.gif')} />
-      <Text>Welcome to the QuickPick App!</Text>
+      <Text style = {styles.textBig}>Welcome to the QuickPick App!</Text>
       <StatusBar style="auto" />  
     </View>
   );
@@ -18,5 +18,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#9DC183',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  textBig: {
+    fontFamily: "Georgia",
+    fontSize: 20,
+    fontWeight: "bold"
   },
 });
