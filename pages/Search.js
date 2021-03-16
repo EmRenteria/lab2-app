@@ -10,7 +10,7 @@ export default function Search() {
   upsateSearch = (search) => {
     this.setState({ search });
   };
-  render () {
+  render (); {
     const { search } = this.state;
     return ( 
       <SearchBar
