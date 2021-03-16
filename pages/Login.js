@@ -16,8 +16,6 @@ export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-
-
   return (
     <View style={styles.container}>
 
@@ -78,7 +76,6 @@ const styles = StyleSheet.create({
     width: "500%",
     height: 45,
     marginBottom: 20,
-
     alignItems: "center",
   },
 

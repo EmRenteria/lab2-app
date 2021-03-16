@@ -89,8 +89,6 @@ const styles = StyleSheet.create({
   image: {
     marginBottom: 200,
   },
-
-  
  
   logo:{
     fontWeight:"bold",
