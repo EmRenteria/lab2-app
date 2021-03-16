@@ -5,8 +5,8 @@ class Item extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.text}>{this.props.artist}</Text>
-        <Text style={styles.text}>{this.props.song}</Text>
+        <Text style={styles.text}>{this.props.food}</Text>
+        <Text style={styles.text}>{this.props.store}</Text>
       </View>
     );
   }

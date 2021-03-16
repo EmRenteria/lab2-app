@@ -10,19 +10,35 @@ class App extends Component {
   filterList(list) {
     return list.filter(
       (listItem) =>
-        listItem.artist
+        listItem.food
           .toLowerCase()
           .includes(this.state.search.toLowerCase()) ||
-        listItem.song.toLowerCase().includes(this.state.search.toLowerCase()),
+        listItem.store.toLowerCase().includes(this.state.search.toLowerCase()),
     );
   }
 
   render() {
     const list = [
-      {artist: 'The Weeknd', song: 'Blinding Lights'},
-      {artist: 'Drake', song: 'Toosie Slide'},
-      {artist: 'Roddy Ricch', song: 'The Box'},
-      {artist: 'Dua Lipa', song: 'Dont Start Now'},
+      {food: 'Eggs', store: 'H-E-B'},
+      {food: 'Eggs', store: 'Walmart'},
+      {food: 'Eggs', store: 'Target'},
+      {food: 'Eggs', store: 'Market Street'},
+      {food: 'Eggs', store: 'Sprouts'},
+      {food: 'Apple Jacks', store: 'H-E-B'},
+      {food: 'Apple Jacks', store: 'Walmart'},
+      {food: 'Apple Jacks', store: 'Target'},
+      {food: 'Apple Jacks', store: 'Market Street'},
+      {food: 'Apple Jacks', store: 'Sprouts'},
+      {food: 'Arizona Green Tea, 1 Gallon', store: 'H-E-B'},
+      {food: 'Arizona Green Tea, 1 Gallon', store: 'Walmart'},
+      {food: 'Arizona Green Tea, 1 Gallon', store: 'Target'},
+      {food: 'Arizona Green Tea, 1 Gallon', store: 'Market Street'},
+      {food: 'Arizona Green Tea, 1 Gallon', store: 'Sprouts'},
+      {food: 'Honey Bunches of Oats', store: 'H-E-B'},
+      {food: 'Honey Bunches of Oats', store: 'Walmart'},
+      {food: 'Honey Bunches of Oats', store: 'Target'},
+      {food: 'Honey Bunches of Oats', store: 'Market Street'},
+      {food: 'Honey Bunches of Oats', store: 'Sprouts'},
     ];
 
     return (
@@ -32,7 +48,7 @@ class App extends Component {
           style={styles.searchBar}
         />
         {this.filterList(list).map((listItem, index) => (
-          <Item key={index} artist={listItem.artist} song={listItem.song} />
+          <Item key={index} food={listItem.food} store={listItem.store} />
         ))}
       </View>
     );
