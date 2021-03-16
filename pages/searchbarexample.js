@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {View, Text, TextInput, StyleSheet} from 'react-native';
-import Item from './Item';
 
 class App extends Component {
   state = {
