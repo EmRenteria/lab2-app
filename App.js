@@ -8,6 +8,7 @@ import Search from './pages/Search';
 import Create_account from './pages/Create_account';
 import Payment from './pages/Payment';
 import UserAccount from './pages/UserAccount';
+import ExampleSearch from './pages/searchbarexample';
 
 
 
@@ -24,7 +25,7 @@ export default function App() {
   );
   if(pressed) {
     page = (
-      <Search />
+      <ExampleSearch />
     )
   }
  
